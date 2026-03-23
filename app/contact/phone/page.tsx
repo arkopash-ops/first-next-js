@@ -3,10 +3,17 @@ import Contact from "../page";
 
 export default function Phone() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center space-y-4">
       <Contact />
-      <h3>Phone Page</h3>
-      <Link href="/contact">Back</Link>
+
+      <h3 className="text-xl font-semibold text-indigo-600">Phone Page</h3>
+
+      <Link
+        href="/contact"
+        className="text-white bg-indigo-600 px-4 py-2 rounded hover:bg-indigo-700 transition"
+      >
+        Back
+      </Link>
     </div>
   );
 }
