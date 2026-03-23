@@ -24,7 +24,7 @@ export default async function Images({ params }: ImagePageProps) {
 
       <Link
         href="/images"
-        className="text-white bg-indigo-600 px-4 py-2 rounded hover:bg-indigo-700 transition"
+        className="text-white bg-gray-500 px-4 py-2 rounded hover:bg-gray-600 transition"
       >
         Back
       </Link>
